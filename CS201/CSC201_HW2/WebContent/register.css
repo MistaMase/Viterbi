@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+html {
+	overflow: hidden;
+}
+
+.background-img {
+	background-image: url("Images/Black Vignette.png"),
+		url("Images/background.jpg");
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	transform: scale(1.1);
+}
+
+/* Topbar */
+.topbar {
+	margin-top: -1%;
+	background-color: #000;
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	z-index: 3;
+	text-align: left;
+	vertical-align: middle;
+	padding-bottom: 3.5%;
+	padding-left: 3%;
+}
+
+/* WeatherMeister */
+h1 {
+	font-family: Sav;
+	font-size: 70px;
+}
+
+.topbarlogin {
+	height: 50px;
+	width: 30%;
+	z-index: 2;
+	padding-right: 3%;
+	vertical-align: middle;
+	margin: auto;
+}
+
+h2 {
+	font-family: Ital;
+	font-size: 35px;
+	text-decoration: none;
+	color: #fff;
+}
+
+h2 a {
+	text-decoration: none;
+	color: white;
+}
+
+#login-profile {
+	position: absolute;
+	top: 38px;
+	left: 1625px;
+}
+
+#logout-register {
+	position: absolute;
+	top: 38px;
+	left: 1750px;
+}
+
+/* WeatherMeister */
+@font-face {
+	font-family: Sav;
+	src: url("Fonts/17357674296594851838.woff");
+}
+
+/* Display All */
+@font-face {
+	font-family: Reg;
+	src: url("Fonts/Avenir Next/AvenirNext-Regular.ttf");
+}
+
+/* Search Bar */
+@font-face {
+	font-family: Ital;
+	src: url("Fonts/Avenir Next/AvenirNext-UltraLightItalic.ttf");
+}
+
+/* Radio Buttons */
+@font-face {
+	font-family: UL;
+	src: url("Fonts/Avenir Next/AvenirNext-UltraLight.ttf");
+}
+
+/* accountIcon */
+.accountIcon {
+	background-position: center center;
+	background-image: url("Images/new-account-icon-256x256.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 30%;
+	width: 30%;
+	left: 35%;
+	top: 10%;
+	z-index: 4;
+}
+
+.accountforms {
+	position: relative;
+	height: 65%;
+	background-color: rgba(255, 255, 255, 0.3);
+	left: 35%;
+	top: 0%;
+	width: 30%;
+	z-index: 3;
+	border-radius: 20px;
+}
+
+.nav {
+	position: absolute;
+	z-index: 4;
+	top: 100px;
+	left: 0px;
+	width: 100%;
+	height: 900px;
+}
+
+.createAccountScreen {
+	margin: auto;
+	width: 90%;
+	padding-top: 20%;
+}
+
+.createAccountScreen input[type=text] {
+	font-size: 25px;
+	font-family: Ital;
+	padding: 0.75%;
+	padding-left: 1.5%;
+	width: 90%;
+	height: 50px;
+}
+
+.createAccountScreen input[type=password] {
+	font-size: 25px;
+	font-family: UL;
+	padding: 0.75%;
+	padding-left: 1.5%;
+	width: 90%;
+	height: 50px;
+}
+
+.createAccountScreen label {
+	font-family: UL;
+	font-size: 35px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.createAccountScreen input[type=submit] {
+	font-family: UL;
+	text-decoration: none;
+	background-color: orange;
+	margin-top: 7%;
+	margin-left: 35%;
+	height: 30%;
+	width: 30%;
+	font-size: 40px;
+	color: white;
+	border-radius: 30px;
+	border: none;
+}
+
+#invalid {
+	position: relative;
+	height: 20%;
+	width: 100%;
+	z-index: 10;
+	color: red;
+	font-size: 40px;
+	text-align: center;
+}

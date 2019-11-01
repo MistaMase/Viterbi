@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+    font-family: Comic Sans MS; /* Comic Sans Font */
+    background-color: #E6E600; /* Yellow Color */
+    line-height: 20px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 25px;
+    font-style: italic; /* Italic */
+    line-height: 26px;    
+}
+
+#top h1 {
+    margin:0;
+    line-height: 50px;
+}
+
+#menubar {
+    width: 190px;
+    float: right;
+}
+
+#main {
+    padding: 35px; /* More Spacing */
+    background-color: #ffffff;
+    font: 80% Verdana;
+}
+
+#main h1, #main h2 {
+    color: #000000;
+}
+
+#sidebar {
+    background-color: #ffffff;
+    color: #E6E600;
+    padding: 10px;
+}
+
+#bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    color: #ffffff;
+}
+
+#menulist {
+    padding:0;
+    font: 10px verdana; /* Smaller buttons */
+}
+
+.menuitem {
+    width: 155px;
+    background-color: #E6E600;
+    border: 1px solid #E6E600;
+    border-radius: 5px; /* Smaller Border Radius (Not Rounded) */
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuitem a {
+    color: #ffffff;
+}
+
+.menuitem:nth-child(4) {
+   background-color:white; /* White Background On Selected */
+}
+
+.menuitem:nth-child(4) a {
+	color: #000000; /* Back Text */  
+	font-weight: bold;
+}
+
+.menuitem:hover {
+    background-color: #ffffff; /* White on hover */
+}
+
+.menuitem a:hover {
+	color: #E6E600; /* Yellow text on hover */
+}
+
+a {
+    color: #000000;
+    text-decoration: underline; /* Underlined hyperlinks */
+}
+
+a:hover {
+    text-decoration: none; /* Removes underline when hovering */
+}
+
+#bottom a {
+	color: black; /* Black bottom hyperlink */
+}
